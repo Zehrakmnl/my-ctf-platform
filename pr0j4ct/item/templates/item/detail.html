@@ -1,0 +1,60 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %} {{item.name}} {% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-5 gap-6">
+    <div class="col-span-3">
+            <img src="{{ item.question_image.url }}" class="rounded-xl">
+    </div>
+    <div class="col-span-2 p-6 bg-black border border-lime-950	rounded-xl">
+        <h1 class="mb-6 text-3xl ">{{item.name}}</h1>
+        <p class="text-green-300 text-m" value="{{price}}"><strong>Point:</strong>{{item.price}}</p>
+        <br> 
+        <p class="text-white-300 text-m">Hoşgeldiiiin</p>    
+        <br><br>
+        {% if item.description %}
+        <p class="text-white">
+            {{ item.description}} 
+            <br><br>
+        <p class="text-green-300 text-xs">HACK{BuldugunCevabınıBurayaAynıFormattaYazmalısın}</p>    
+            <br><br>
+        </p>
+        {% endif %}
+
+        {% if item.file %}
+                <a href="{% static 'file/exmpl.pcap' %}" class="text-sm py-2 px-6 rounded-xl text-white rounded-xl border border-lime-950 draw-border">Question File</a>
+            <br><br>
+        {% endif %}
+        <script src="{% static 'jquery.min.js' %}"></script>
+            <form method="get" action="{% url 'dashboard:index' %}">
+                <input id="price" name="point" class="w-full py-1 px-6 border border-lime-950	rounded-xl text-slate-950" value="{{answer}}" type="text" placeholder="HACK{XXXXXXXXXXX}">
+                <input type="hidden" name="price" value="{{ item.price }}"> <!-- Hidden input for item price -->
+                <input type="hidden" name="name" value="{{ item.name }}"> <!-- Hidden input for item name -->
+                <br> <br>
+                <button class="text-m py-2 px-6 text-lg bg-red-900 text-white rounded-xl btn draw-border">! HACK !</button> 
+            </form>
+    </div>
+</div>
+<!-- 
+<div class="mt-6 px-6 py-12 bg-black border border-lime-950	 rounded-xl">
+    <h2 class="mb-12 text-xl text-center" > Related Items</h2>
+    <div class="grid grid-cols-3 gap-3 bg-black">
+        {% for item in related_items %}
+            <div>
+                <a href="{% url 'item:detail' item.id %}">
+                    <div>
+                        <img src="{{ item.image.url }}" class="rounded-t-xl">
+                    </div>
+                    <div class="p-6 bg-black rounded-b-xl">
+                        <h2 class="text-2xl ">{{ item.name }}</h2>
+                        <p class="text-emerald-900">Point: {{ item.price }}</p>
+                    </div>
+                </a>
+            </div> 
+        {% endfor %}
+    </div>
+</div>  -->
+{% endblock %}

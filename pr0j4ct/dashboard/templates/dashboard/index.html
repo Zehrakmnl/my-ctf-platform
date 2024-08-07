@@ -1,0 +1,59 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Scores{% endblock %}
+
+{% block content %}
+<style>
+    h2 {
+        color: #333;
+        text-align: center;
+    }
+
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #000000;
+        border-radius: 10px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #0c012e;
+        color: white;
+    }
+</style><h2>Score Table</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Total Points</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- {% if user_data %}
+            Debugging output to ensure user_data is not empty 
+            <p>User data is not empty</p>
+        {% else %}
+            Debugging output to indicate if user_data is empty 
+            <p>User data is empty</p>
+            {{ user_data|length }}
+        {% endif %} -->
+        
+        <tr>
+            <td>{{ username }}</td>
+            <td>{{ total }}</td>
+            <td>{{ dateTime }}</td>
+        </tr>
+
+    </tbody>
+</table>
+{% endblock %}
