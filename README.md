@@ -29,5 +29,5 @@ Yarışmanın 'challenges' ve 'soru içeriği' ekranlarını aşağıda sizlerle
 <img width="615" alt="Screenshot 2024-08-07 at 11 33 07" src="https://github.com/user-attachments/assets/196a10be-7c47-4322-b5d0-8d3763440157">
 
 
-Şimdilik proje gelişme aşamasında olduğu için repoyu clone'ladıktan sonra hemen kullanıma başlayabiliyor olsanız da teknik eksikliklerle karşılaşacağınızs eminim :) 
+Şimdilik proje gelişme aşamasında olduğu için repoyu clone'ladıktan sonra hemen kullanıma başlayabiliyor olsanız da teknik eksikliklerle karşılaşacağınıza eminim :) 
 
