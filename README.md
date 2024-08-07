@@ -24,6 +24,10 @@ Benim hazırladığım websitesindeki soruların konuları şu şekilde listelen
 8. Web Zafiyetleri
 
 Yarışmanın 'challenges' ve 'soru içeriği' ekranlarını aşağıda sizlerle paylaşıyorum.
+
 <img width="1506" alt="Screenshot 2024-08-07 at 11 24 42" src="https://github.com/user-attachments/assets/7a3bb41e-9bff-4a63-bb54-c5dbc04ce8eb">
 <img width="615" alt="Screenshot 2024-08-07 at 11 33 07" src="https://github.com/user-attachments/assets/196a10be-7c47-4322-b5d0-8d3763440157">
+
+
+Şimdilik proje gelişme aşamasında olduğu için repoyu clone'ladıktan sonra hemen kullanıma başlayabiliyor olsanız da teknik eksikliklerle karşılaşacağınızs eminim :) 
 
