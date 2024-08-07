@@ -4,7 +4,7 @@
 
 Ben bir Siber güvenlik tutkunuyum. Yaklaşık 3 yıldır :)
 
-Bu alanda kendinizi geliştirmek için kullanabileceğiniz onlarca platform ve yarışma var.
+Bu alanda kendinizi geliştirmek için kullanabileceğiniz onlarca platform ve yarışma var. 
 
 Bunlardan biri de CTF yarışmaları. Capture The Flag. Zafiyet tespiti yarışması da denilebilir.
 Bu, şirketlerin, okulların veya küçük toplulukların sıklıkla kullandığı bir yarışma tekniğidir. Çalışanlarını işe alırken bilgi seviyelerini ölçmek veya öğrencilerin yarışarak kendilerini geliştirmeleri gibi amaçları vardır.
@@ -12,6 +12,7 @@ Bu, şirketlerin, okulların veya küçük toplulukların sıklıkla kullandığ
 Temelde ayarlanabilir soru seviyelerine sahip bir web sitesidir ve doğru cevaplar verdikçe puanınız artar ve sıralamalarda yükselirsiniz.
 Soruların içerikleri siber güvenliğin temelini oluşturan konulardır. Yani sorular, siber güvenlik uzmanı olduğunu iddia eden her kişinin bilmesi gereken konuları içerir.
 
+Ben de sorular hazırlayarak kendimi geliştirmek adına Django Framework kullanarak bir CTF platformu, websitesi geliştirdim.
 Benim hazırladığım websitesindeki soruların konuları şu şekilde listelenebilir: 
 
 1. Başlangıç Terimleri
@@ -22,6 +23,7 @@ Benim hazırladığım websitesindeki soruların konuları şu şekilde listelen
 6. Pcap Analizi
 7. Steganografi
 8. Web Zafiyetleri
+
 
 Yarışmanın 'challenges' ve 'soru içeriği' ekranlarını aşağıda sizlerle paylaşıyorum.
 
